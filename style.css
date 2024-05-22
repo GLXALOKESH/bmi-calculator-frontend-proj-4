@@ -49,13 +49,13 @@ body{
 .lbl{
     font-size: 1rem;
     font-weight: 900;
-    margin: 10px 0px;
+    margin: 1% 0px;
 }
 #lblheight{
-    margin-top: 30px;
+    margin-top: 13%;
 }
 #lblweight{
-    margin-top: 20px;
+    margin-top: 10%;
 }
 .container button{
     width: 80px;
@@ -64,7 +64,7 @@ body{
     font-size: 15px;
     font-weight: 600;
     align-self: center;
-    margin-top: 30px;
+    margin-top: 13%;
 }
 .inn-cont{
     height: 20%;
@@ -82,4 +82,28 @@ body{
     background-color: black;
     width: fit-content;
     
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        height: 40vh;
+        width: 50vw;
+
+    }
+    .heading{
+        font-size: 3rem;
+            
+        }
+    
+}
+@media screen and (max-width:450px) {
+    .container{
+        height: 40vh;
+        width: 70vw;
+
+    }
+    .heading{
+    font-size: 2.1rem;
+        
+    }
 }
